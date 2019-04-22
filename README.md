@@ -22,39 +22,39 @@ Revisions:
 * Intro
 * Data structure
 * Few numbers about consumables for each printer
-* MFC-L8650CDW (file: MFC-L8650CDW.md)
+* MFC-L8650CDW (file: [MFC-L8650CDW.md](MFC-L8650CDW.md))
   * MFC-L8650CDW - brInfoCounter
   * MFC-L8650CDW - brInfoMaintenance
   * MFC-L8650CDW - brInfoNextCare
   * MFC-L8650CDW - brInfoReplaceCount
   * MFC-L8650CDW - brInfoJamCount
-* DCP-7065DN (file: DCP-7065DN.md)
+* DCP-7065DN (file: [DCP-7065DN.md](DCP-7065DN.md))
   * DCP-7065DN - brInfoCounter
   * DCP-7065DN - brInfoMaintenance
   * DCP-7065DN - brInfoNextCare
   * DCP-7065DN - brInfoReplaceCount
   * DCP-7065DN - brInfoJamCount
-* MFC-8880DN (file: MFC-8880DN.md)
+* MFC-8880DN (file: [MFC-8880DN.md](MFC-8880DN.md))
   * MFC-8880DN - brInfoCounter
   * MFC-8880DN - brInfoMaintenance
   * MFC-8880DN - brInfoNextCare
   * MFC-8880DN - brInfoReplaceCount
   * MFC-8880DN - brInfoJamCount
-* MFC- B7715DW (file: MFC- B7715DW.md)
+* MFC- B7715DW (file: [MFC- B7715DW.md](MFC- B7715DW.md))
   * MFC- B7715DW - brInfoCounter
   * MFC- B7715DW - brInfoCoverage
   * MFC- B7715DW - brInfoMaintenance
   * MFC- B7715DW - brInfoNextCare
   * MFC- B7715DW - brInfoReplaceCount
   * MFC- B7715DW - brInfoJamCount
-* MFC-L2720DW (file: MFC-L2720DW.md)
+* MFC-L2720DW (file: [MFC-L2720DW.md](MFC-L2720DW.md))
   * MFC-L2720DW - brInfoCounter
   * MFC-L2720DW - brInfoCoverage
   * MFC-L2720DW - brInfoMaintenance
   * MFC-L2720DW - brInfoNextCare
   * MFC-L2720DW - brInfoReplaceCount
   * MFC-L2720DW - brInfoJamCount
-* HL-L5100DN (file: HL-L5100DN.md)
+* HL-L5100DN (file: [HL-L5100DN.md](HL-L5100DN.md))
   * HL-L5100DN - brInfoCounter
   * HL-L5100DN - brInfoCoverage
   * HL-L5100DN - brInfoMaintenance
@@ -146,9 +146,11 @@ At the end of data block there is sequence of 4xFF (4 time 0xFF)
 indicating end of data - I call it `padEnd` :wink: .
 
 Data block layouts:
+
 ![](media/brother-data-block1.jpg)
 
 For brInfoNextCare or brInfoReplaceCount it's:
+
 ![](media/brother-data-block2.jpg)
 
 I think for parsing the byte-stream: I'd first strip the stream from
