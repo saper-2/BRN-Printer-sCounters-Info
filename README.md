@@ -40,7 +40,7 @@ Revisions:
   * MFC-8880DN - brInfoNextCare
   * MFC-8880DN - brInfoReplaceCount
   * MFC-8880DN - brInfoJamCount
-* MFC- B7715DW (file: [MFC- B7715DW.md](MFC- B7715DW.md))
+* MFC- B7715DW (file: [MFC-B7715DW.md](MFC-B7715DW.md))
   * MFC- B7715DW - brInfoCounter
   * MFC- B7715DW - brInfoCoverage
   * MFC- B7715DW - brInfoMaintenance
